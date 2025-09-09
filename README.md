@@ -21,8 +21,8 @@ import pandas as pd
 
 df = pd.read_csv("airlines_flights_data.csv")
 
-# Use the 'duration' column for autocorrelation
-data = df["duration"].to_numpy()
+# Use the 'price' column for autocorrelation
+data = df["price"].to_numpy()
 
 N=len(data)
 
@@ -59,7 +59,7 @@ else:
 
 
 ### OUTPUT:
-<img width="1159" height="697" alt="image" src="https://github.com/user-attachments/assets/beafd6be-00a9-46da-aa07-2720e13d88dc" />
+<img width="970" height="551" alt="image" src="https://github.com/user-attachments/assets/026f8930-457a-4047-a270-6b2e2206f8e5" />
 
 
 
